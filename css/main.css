@@ -96,6 +96,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* utility class */
+
+
+   /* commun rules */
+   .btu {
+    background-color: #00A6ED; /* Green */
+    width: 18%;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    }
+    .btu:hover {
+      background-color: #1F6684;
+    }
+    .btu:active {
+      border: thick double white;
+    }
+    .btd {
+      background-color: white;
+      width: 18%;
+      border: 1px solid #00A6ED;
+      border-radius: 20px;
+      color: #00A6ED;
+      padding: 5px;
+      text-align: center;
+      font-size: 16px;
+    }
+    .btd:hover {
+      background-color: #B1D5EE;
+    }
+    .btd:active {
+      background-color: #1F6684;
+      border: thick double #00A6ED;
+    }
+
+
+
+
+   /* header class */
+
+
+
+   /* main class */
+
+
 
 
 
