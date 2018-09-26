@@ -97,9 +97,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /* utility class */
+   .flex {
+     display: flex;
+   }
+   .leftBloc {
+     width: 50vw;
+     height: 95vh;
+     background-image: url(../img/twitter.jpg);
+     background-size: cover;
+   }
+   .rightBloc {
+     width: 50vw;
+     height: 95vh;
+     background-color: grey;
+   }
+   .flexLeft {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .flexRight {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .button {
+     display: flex;
+     flex-direction: column;
+   }
+   header div div p {
+     font-size: 1.1em;
+     color: white;
+     margin-top: 20px;
+   }
+   .test {
+     background-color: yellow;
+   }
+   .test2 {
+     background-color: green;
+   }
 
 
    /* commun rules */
+   p, h1, h2, h3, a, input {
+     font-family: 'Heebo', sans-serif;
+   }
    .btu {
     background-color: #00A6ED; /* Green */
     width: 18%;
@@ -132,6 +174,19 @@ textarea {
       background-color: #1F6684;
       border: thick double #00A6ED;
     }
+    .margin {
+      margin-right: 14px;
+      color: white;
+    }
+    .marginT {
+      margin-right: 22px;
+      color: white;
+    }
+    .marginB {
+      margin-right: 22px;
+      color: white;
+    }
+
 
 
 
