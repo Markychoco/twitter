@@ -96,6 +96,168 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* utility class */
+
+   /* flex bloc  */
+   .flex {
+     display: flex;
+   }
+   /* size and background left bloc */
+   .leftBloc {
+     width: 50vw;
+     height: 95vh;
+     background-image: url(../img/twitter.jpg);
+     background-size: cover;
+   }
+   /* size right bloc */
+   .rightBloc {
+     width: 50vw;
+     height: 95vh;
+     background-color: white;
+   }
+   /* flexbox left bloc center  */
+   .flexLeft {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   /* flexbox right bloc  */
+   .flexRight {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
+   /* flexbox button right bloc*/
+   .button {
+     display: flex;
+     flex-direction: column;
+   }
+   /* space-size p font */
+   header div div p {
+     font-size: 1.1em;
+     margin-top: 20px;
+   }
+   /* margin vh right bloc */
+   .marginBloc {
+     margin-top: 23vh;
+   }
+   /* flexbox nav  */
+   .flexNav {
+     display: flex;
+     justify-content: center;
+   }
+   test2 {
+     background-color: green;
+   }
+   .flexFooter {
+     font-size: 0.8em;
+     margin-top: 0px;
+     display: flex;
+     justify-content: space-around;
+     border-top: 1px solid lightgrey;
+     padding-top: 15px;
+   }
+   footer a {
+     color: lightgrey;
+   }
+
+
+   /* commun rules */
+
+   /* font style */
+   p, h1, h2, h3, a, input {
+     font-family: 'Heebo', sans-serif;
+   }
+   /* button */
+   .btu {
+    background-color: #00A6ED; /* Green */
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    }
+    .btu:hover {
+      background-color: #1F6684;
+    }
+    .btu:active {
+      border: thick double white;
+    }
+    .btd {
+      background-color: white;
+      width: 100%;
+      border: 1px solid #00A6ED;
+      border-radius: 20px;
+      color: #00A6ED;
+      padding: 5px;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .btd:hover {
+      background-color: #B1D5EE;
+    }
+    .btd:active {
+      background-color: #1F6684;
+      border: thick double #00A6ED;
+    }
+    /* end button */
+    .margin {
+      margin-right: 14px;
+      color: white;
+    }
+    .marginT {
+      margin-right: 22px;
+      color: white;
+    }
+    .marginB {
+      margin-right: 22px;
+      color: white;
+    }
+    nav {
+      width: 35vw;
+    }
+    .color {
+      color: #00A6ED;
+    }
+    div p strong {
+      color: black;
+    }
+    .colorTxt {
+      color: white;
+    }
+    .marginBlocNav {
+      margin-left: 15px;
+    }
+    .btdNav {
+      background-color: white;
+      width: 20%;
+      border: 1px solid #00A6ED;
+      border-radius: 20px;
+      color: #00A6ED;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    input {
+      height: 5vh;
+      margin-top: 20px;
+    }
+
+
+
+
+
+   /* header class */
+
+
+
+   /* main class */
+
+
 
 
 
